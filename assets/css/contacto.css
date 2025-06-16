@@ -1,0 +1,37 @@
+.contacto {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-height: 350px;
+  width: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInUp 0.6s ease-in-out;
+}
+
+.contacto h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.contacto-info p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.contacto-info a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contacto-info a:hover {
+  color: #0056b3;
+}
